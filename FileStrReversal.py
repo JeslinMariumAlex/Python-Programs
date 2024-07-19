@@ -1,0 +1,15 @@
+0f = open("content1", "w")
+str = "My name is Jeslin Marium Alex.Iam from Thiruvalla."
+f.write(str)
+f = open("content1", "r")
+p = open("reverse", "w")
+a = f.read()
+print(a)
+x = a[::-1]
+p.write(x)
+f.close()
+p.close()
+print("Read content in reverse order")
+f = open("reverse", "r")
+print(f.read())
+f.close()

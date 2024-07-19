@@ -1,0 +1,9 @@
+n=int(input("Enter the limit:"))
+s=0
+a=1
+i=2
+while a<=n:
+	s=s+i
+	i=i+2
+	a=a+1
+print("sum=",s)

@@ -1,0 +1,11 @@
+name=input("Name:")
+rollno=int(input("RollNo:"))
+Physics=int(input("Physics:"))
+Chemistry=int(input("Chemistry"))
+Maths=int(input("Maths:"))
+Totalmark=Physics+Chemistry+Maths
+Avg=Totalmark/3
+Percentage=Avg*1/100 
+print("Totalmark:",Totalmark)
+print("Average:",Avg)
+print("Percentage:",Percentage)

@@ -1,0 +1,15 @@
+fp = open("myFile", "w")
+print("Writing data to file")
+str = "Hai welcome to the file handling concepts"
+fp.write(str)
+fp.close()
+fp = open("myFile", "r")
+print("Reading data from the file")
+str = fp.read()
+print(str)
+fp.close()
+fp = open("myFile", "a")
+print("Writing data to file")
+str = "Hai welcome to the file handling concepts 2345"
+fp.write(str)
+fp.close()
